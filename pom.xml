@@ -16,7 +16,6 @@
   <name>petclinic</name>
 
   <properties>
-     <pmdVersion>6.38.0</pmdVersion>
     <!-- Generic properties -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
