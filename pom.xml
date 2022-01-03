@@ -36,11 +36,6 @@
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
-      <groupId>net.sourceforge.pmd</groupId>
-      <artifactId>pmd</artifactId>
-      <version>6.41.0</version>
-    </dependency>
-    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
