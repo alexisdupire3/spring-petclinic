@@ -10,13 +10,11 @@ pipeline {
     stage('package') {
       steps {
         sh '''<pmdVersion>6.38.0</pmdVersion>
-...
 <dependency>
 <groupId>net.sourceforge.pmd</groupId>
 <artifactId>pmd</artifactId>
 <version>6.41.0</version>
 </dependency>
-...
 <plugin>
 <artifactId>maven-pmd-plugin</artifactId>
 <groupId>org.apache.maven.plugins</groupId>
