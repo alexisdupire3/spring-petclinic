@@ -9,6 +9,7 @@ pipeline {
 
     stage('Sonar') {
       steps {
+        sh 'mvn clean install'
         sh '''mvn clean verify sonar:sonar \\
   -Dsonar.projectKey=projet1 \\
   -Dsonar.host.url=http://localhost \\
